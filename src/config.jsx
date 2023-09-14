@@ -23,13 +23,13 @@ const routes = [
         label: 'ClientInstance',
         path: 'client-instance',
         element: () => import('./pages/BTClientInstance'),
-        isDep: true,
+        isDep: false,
     },
     {
         label: 'Checkout',
         path: 'checkout',
         element: () => import('./pages/BTPwPPCheckout'),
-        isDep: false,
+        isDep: true,
     },
 ]
 
